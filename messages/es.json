@@ -5,8 +5,59 @@
     "description": "Portafolio profesional de Juan Guillermo Moreno, desarrollador Full Stack especializado en Node.js, NestJS, React, Next.js y TypeScript.",
     "siteName": "Portafolio de Juan Guillermo Moreno"
   },
-  "Home": {
+  "Navbar": {
+    "start": "Inicio",
+    "projects": "Proyectos",
+    "technologies": "Tecnologías",
+    "experience": "Experiencia",
+    "about-me": "Sobre mí",
+    "contact": "Contacto",
+    "brand-label": "Ir al inicio",
+    "navigation-label": "Navegación principal",
+    "open-menu": "Abrir menú de navegación",
+    "close-menu": "Cerrar menú de navegación",
+    "menu-eyebrow": "Navegación",
+    "menu-title": "Explorar el portafolio",
+    "menu-description": "Navega por las secciones principales del portafolio."
+  },
+  "LocaleSwitcher": {
+    "label": "Cambiar idioma",
+    "spanish": "Español",
+    "english": "Inglés"
+  },
+  "Accessibility": {
+    "skip-to-content": "Saltar al contenido principal"
+  },
+  "Hero": {
+    "eyebrow": "Portafolio // Ingeniería Full Stack",
     "title": "Desarrollador Full Stack",
     "description": "Construyo aplicaciones web completas y escalables."
+  },
+  "Sections": {
+    "projects": {
+      "eyebrow": "Trabajo seleccionado",
+      "title": "Proyectos principales",
+      "description": "Una selección de productos en los que combino decisiones técnicas, experiencia de usuario y resultados medibles."
+    },
+    "technologies": {
+      "eyebrow": "Stack técnico",
+      "title": "Habilidades y tecnologías",
+      "description": "Herramientas que utilizo para construir sistemas mantenibles, desde la interfaz hasta la arquitectura del servidor."
+    },
+    "experience": {
+      "eyebrow": "Trayectoria",
+      "title": "Experiencia profesional",
+      "description": "Un recorrido por los roles, retos y aprendizajes que han definido mi práctica como desarrollador."
+    },
+    "about-me": {
+      "eyebrow": "Principios",
+      "title": "Enfoque de ingeniería",
+      "description": "Diseño soluciones claras y robustas, con atención al detalle, accesibilidad y calidad a largo plazo."
+    },
+    "contact": {
+      "eyebrow": "Contacto",
+      "title": "¿Conversamos?",
+      "description": "Estoy disponible para colaborar en productos digitales y resolver desafíos de ingeniería con impacto real."
+    }
   }
 }

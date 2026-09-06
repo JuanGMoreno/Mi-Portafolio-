@@ -1,28 +1,31 @@
+
+import NavBar from "@/components/common/NavBar";
+import Hero from "@/components/sections/Hero";
+import PortfolioSections from "@/components/sections/PortfolioSections";
 import { getTranslations } from "next-intl/server";
-import { LocaleSwitcher } from "@/components/common/LocaleSwitcher";
 
 export default async function HomePage() {
-  const t = await getTranslations("Home");
+  const t = await getTranslations("Accessibility");
 
   return (
-    <main className="site-container flex min-h-screen flex-col py-6 md:py-8">
-      <div className="flex justify-end">
-        <LocaleSwitcher />
-      </div>
+    <>
+      <a
+        href="#main-content"
+        className="fixed top-3 left-3 z-[60] -translate-y-20 rounded-md bg-primary px-4 py-2 font-semibold text-primary-foreground transition-transform focus:translate-y-0"
+      >
+        {t("skip-to-content")}
+      </a>
 
-      <section className="flex flex-1 items-center py-16 md:py-24">
-        <div className="max-w-4xl">
-          <p className="technical-label mb-5 text-signal">
-            Portfolio // Full Stack Engineering
-          </p>
-          <h1 className="max-w-3xl text-5xl leading-[1.08] font-extrabold tracking-[-0.03em] sm:text-6xl lg:text-7xl">
-            {t("title")}
-          </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-7 text-text-secondary">
-            {t("description")}
-          </p>
+      <header className="sticky top-0 z-50 border-b border-border/80 bg-canvas/82 backdrop-blur-xl">
+        <div className="site-container py-3.5">
+          <NavBar />
         </div>
-      </section>
-    </main>
+      </header>
+
+      <main id="main-content" className="site-container min-h-screen">
+        <Hero />
+        <PortfolioSections />
+      </main>
+    </>
   );
 }
