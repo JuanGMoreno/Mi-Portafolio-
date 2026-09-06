@@ -5,8 +5,59 @@
     "description": "Professional portfolio of Juan Guillermo Moreno, a Full Stack developer specializing in Node.js, NestJS, React, Next.js and TypeScript.",
     "siteName": "Juan Guillermo Moreno's Portfolio"
   },
-  "Home": {
+  "Navbar": {
+    "start": "Home",
+    "projects": "Projects",
+    "technologies": "Technologies",
+    "experience": "Experience",
+    "about-me": "About me",
+    "contact": "Contact",
+    "brand-label": "Go to home",
+    "navigation-label": "Main navigation",
+    "open-menu": "Open navigation menu",
+    "close-menu": "Close navigation menu",
+    "menu-eyebrow": "Navigation",
+    "menu-title": "Explore the portfolio",
+    "menu-description": "Navigate through the portfolio's main sections."
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "spanish": "Spanish",
+    "english": "English"
+  },
+  "Accessibility": {
+    "skip-to-content": "Skip to main content"
+  },
+  "Hero": {
+    "eyebrow": "Portfolio // Full Stack Engineering",
     "title": "Full Stack Developer",
     "description": "I build complete and scalable web applications."
+  },
+  "Sections": {
+    "projects": {
+      "eyebrow": "Selected work",
+      "title": "Featured projects",
+      "description": "A selection of products where I combine technical decisions, user experience and measurable outcomes."
+    },
+    "technologies": {
+      "eyebrow": "Technical stack",
+      "title": "Skills and technologies",
+      "description": "Tools I use to build maintainable systems, from the interface to server-side architecture."
+    },
+    "experience": {
+      "eyebrow": "Career",
+      "title": "Professional experience",
+      "description": "A journey through the roles, challenges and lessons that have shaped my practice as a developer."
+    },
+    "about-me": {
+      "eyebrow": "Principles",
+      "title": "Engineering approach",
+      "description": "I design clear, robust solutions with close attention to detail, accessibility and long-term quality."
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Let's talk",
+      "description": "I am available to collaborate on digital products and solve engineering challenges with real impact."
+    }
   }
 }
