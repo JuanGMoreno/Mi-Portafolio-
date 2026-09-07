@@ -29,9 +29,13 @@
     "skip-to-content": "Saltar al contenido principal"
   },
   "Hero": {
-    "eyebrow": "Portafolio // Ingeniería Full Stack",
+    "eyebrow": "Disponible para nuevos proyectos",
     "title": "Desarrollador Full Stack",
-    "description": "Construyo aplicaciones web completas y escalables."
+    "summary-skills": "React · Next.js · TypeScript · Node.js · PostgreSQL · AWS",
+    "description": "Diseño y construyo aplicaciones web de principio a fin: desde bases de datos y APIs robustas hasta interfaces claras y accesibles. Trabajo con especial atención a la arquitectura, la mantenibilidad y una experiencia de usuario natural.",
+    "view-projects": "Ver proyectos",
+    "contact-me": "Contáctame",
+    "image-alt": "Retrato ilustrado de Juan Guillermo Moreno"
   },
   "Sections": {
     "projects": {

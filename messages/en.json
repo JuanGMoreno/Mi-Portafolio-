@@ -29,9 +29,13 @@
     "skip-to-content": "Skip to main content"
   },
   "Hero": {
-    "eyebrow": "Portfolio // Full Stack Engineering",
+    "eyebrow": "Available for new projects",
     "title": "Full Stack Developer",
-    "description": "I build complete and scalable web applications."
+    "summary-skills": "React · Next.js · TypeScript · Node.js · PostgreSQL · AWS",
+    "description": "I design and build end-to-end web applications, from robust databases and APIs to clear, accessible interfaces. I focus on sound architecture, maintainability, and a natural user experience.",
+    "view-projects": "View projects",
+    "contact-me": "Contact me",
+    "image-alt": "Illustrated portrait of Juan Guillermo Moreno"
   },
   "Sections": {
     "projects": {
