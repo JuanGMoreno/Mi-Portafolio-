@@ -37,6 +37,33 @@
     "contact-me": "Contáctame",
     "image-alt": "Retrato ilustrado de Juan Guillermo Moreno"
   },
+  "About": {
+    "eyebrow": "Sobre mí",
+    "title": "Curiosidad convertida en soluciones",
+    "story-1": "Todo empezó con una pregunta sencilla: ¿cómo funciona esto? La curiosidad por entender qué ocurre detrás de cada producto me llevó a la programación. Desde entonces, convierto el aprendizaje constante en herramientas para construir cosas nuevas.",
+    "story-2": "Ese impulso se ha traducido en productos reales: sistemas de gestión que organizan el trabajo en equipo, herramientas que automatizan procesos manuales y aplicaciones desarrolladas de principio a fin, desde el modelado de datos hasta su despliegue en la nube.",
+    "story-3": "Soy ingeniero en Ciencias Informáticas, graduado de la Universidad de las Ciencias Informáticas (UCI). Me interesa crear software claro, mantenible y útil, combinando buenas decisiones técnicas con una experiencia de usuario natural.",
+    "profile-label": "Perfil profesional en formato de código",
+    "code": {
+      "file": "profile.ts",
+      "variable": "perfil",
+      "education-key": "formacion",
+      "education-value": "Ingeniería en Ciencias Informáticas · UCI",
+      "location-key": "ubicacion",
+      "location-value": "Colombia",
+      "focus-key": "enfoque",
+      "focus-value": "Desarrollo de productos web Full Stack",
+      "areas-key": "areas",
+      "area-1": "Arquitectura",
+      "area-2": "Backend",
+      "area-3": "Frontend",
+      "area-4": "Cloud",
+      "principles-key": "principios",
+      "principle-1": "Claridad",
+      "principle-2": "Mantenibilidad",
+      "principle-3": "Accesibilidad"
+    }
+  },
   "Sections": {
     "projects": {
       "eyebrow": "Trabajo seleccionado",
@@ -52,11 +79,6 @@
       "eyebrow": "Trayectoria",
       "title": "Experiencia profesional",
       "description": "Un recorrido por los roles, retos y aprendizajes que han definido mi práctica como desarrollador."
-    },
-    "about-me": {
-      "eyebrow": "Principios",
-      "title": "Enfoque de ingeniería",
-      "description": "Diseño soluciones claras y robustas, con atención al detalle, accesibilidad y calidad a largo plazo."
     },
     "contact": {
       "eyebrow": "Contacto",

@@ -37,6 +37,33 @@
     "contact-me": "Contact me",
     "image-alt": "Illustrated portrait of Juan Guillermo Moreno"
   },
+  "About": {
+    "eyebrow": "About me",
+    "title": "Curiosity turned into solutions",
+    "story-1": "It all started with a simple question: how does this work? Curiosity about what happens behind every product led me to programming. Since then, I have turned continuous learning into tools for building new things.",
+    "story-2": "That drive has become real products: management systems that organize teamwork, tools that automate manual processes, and applications developed end to end, from data modeling to cloud deployment.",
+    "story-3": "I hold a degree in Computer Science Engineering from the University of Informatics Sciences (UCI). I aim to create clear, maintainable, and useful software by combining sound technical decisions with a natural user experience.",
+    "profile-label": "Professional profile presented as code",
+    "code": {
+      "file": "profile.ts",
+      "variable": "profile",
+      "education-key": "education",
+      "education-value": "Computer Science Engineering · UCI",
+      "location-key": "location",
+      "location-value": "Colombia",
+      "focus-key": "focus",
+      "focus-value": "Full Stack web product development",
+      "areas-key": "areas",
+      "area-1": "Architecture",
+      "area-2": "Backend",
+      "area-3": "Frontend",
+      "area-4": "Cloud",
+      "principles-key": "principles",
+      "principle-1": "Clarity",
+      "principle-2": "Maintainability",
+      "principle-3": "Accessibility"
+    }
+  },
   "Sections": {
     "projects": {
       "eyebrow": "Selected work",
@@ -52,11 +79,6 @@
       "eyebrow": "Career",
       "title": "Professional experience",
       "description": "A journey through the roles, challenges and lessons that have shaped my practice as a developer."
-    },
-    "about-me": {
-      "eyebrow": "Principles",
-      "title": "Engineering approach",
-      "description": "I design clear, robust solutions with close attention to detail, accessibility and long-term quality."
     },
     "contact": {
       "eyebrow": "Contact",

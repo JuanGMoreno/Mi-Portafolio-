@@ -1,10 +1,9 @@
 import { getTranslations } from "next-intl/server";
 
 const sections = [
-  { id: "projects", key: "projects", index: "01" },
-  { id: "technologies", key: "technologies", index: "02" },
-  { id: "experience", key: "experience", index: "03" },
-  { id: "about-me", key: "about-me", index: "04" },
+  { id: "projects", key: "projects", index: "02" },
+  { id: "technologies", key: "technologies", index: "03" },
+  { id: "experience", key: "experience", index: "04" },
   { id: "contact", key: "contact", index: "05" },
 ] as const;
 
@@ -19,9 +18,9 @@ export default async function PortfolioSections() {
         key={section.id}
         id={section.id}
         aria-labelledby={headingId}
-        className="min-h-[22rem] scroll-mt-24 border-t border-border py-20 md:py-28"
+        className="flex min-h-[calc(100svh-4.5rem)] items-center border-t border-border py-16 md:py-20"
       >
-        <div className="grid gap-5 md:grid-cols-12 md:gap-8">
+        <div className="grid w-full gap-5 md:grid-cols-12 md:gap-8">
           <p className="technical-label text-signal md:col-span-3">
             {section.index}
             {" // "}

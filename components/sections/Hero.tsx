@@ -23,7 +23,7 @@ export default async function Hero() {
     <section
       id="hero"
       aria-labelledby="hero-title"
-      className="grid min-h-[calc(100svh-4.5rem)] scroll-mt-24 items-center gap-10 py-10 md:grid-cols-[minmax(0,1fr)_16rem] md:gap-10 md:py-12 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-16"
+      className="grid min-h-[calc(100svh-4.5rem)] items-center gap-10 py-10 md:grid-cols-[minmax(0,1fr)_16rem] md:gap-10 md:py-12 lg:grid-cols-[minmax(0,1fr)_20rem] lg:gap-16"
     >
       <div className="max-w-3xl">
         <p className="tech-chip mb-4 gap-2 text-signal">
