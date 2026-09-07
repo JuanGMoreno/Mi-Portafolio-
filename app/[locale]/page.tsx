@@ -1,5 +1,6 @@
 
 import NavBar from "@/components/common/NavBar";
+import About from "@/components/sections/About";
 import Hero from "@/components/sections/Hero";
 import PortfolioSections from "@/components/sections/PortfolioSections";
 import { getTranslations } from "next-intl/server";
@@ -24,6 +25,7 @@ export default async function HomePage() {
 
       <main id="main-content" className="site-container min-h-screen">
         <Hero />
+        <About />
         <PortfolioSections />
       </main>
     </>
