@@ -64,6 +64,26 @@
       "principle-3": "Accessibility"
     }
   },
+  "Skills": {
+    "eyebrow": "Skills",
+    "title": "My toolkit",
+    "description": "From interface to deployment.",
+    "grid-label": "Areas of technical expertise",
+    "groups": {
+      "frontend": {
+        "label": "Frontend"
+      },
+      "backend": {
+        "label": "Backend"
+      },
+      "data": {
+        "label": "Data"
+      },
+      "tools": {
+        "label": "Cloud and tools"
+      }
+    }
+  },
   "Sections": {
     "projects": {
       "eyebrow": "Selected work",
