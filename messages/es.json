@@ -64,26 +64,24 @@
       "principle-3": "Accesibilidad"
     }
   },
-  "Sections": {
-    "projects": {
-      "eyebrow": "Trabajo seleccionado",
-      "title": "Proyectos principales",
-      "description": "Una selección de productos en los que combino decisiones técnicas, experiencia de usuario y resultados medibles."
-    },
-    "technologies": {
-      "eyebrow": "Stack técnico",
-      "title": "Habilidades y tecnologías",
-      "description": "Herramientas que utilizo para construir sistemas mantenibles, desde la interfaz hasta la arquitectura del servidor."
-    },
-    "experience": {
-      "eyebrow": "Trayectoria",
-      "title": "Experiencia profesional",
-      "description": "Un recorrido por los roles, retos y aprendizajes que han definido mi práctica como desarrollador."
-    },
-    "contact": {
-      "eyebrow": "Contacto",
-      "title": "¿Conversamos?",
-      "description": "Estoy disponible para colaborar en productos digitales y resolver desafíos de ingeniería con impacto real."
+  "Skills": {
+    "eyebrow": "Habilidades",
+    "title": "Mi caja de herramientas",
+    "description": "De la interfaz al despliegue.",
+    "grid-label": "Áreas de experiencia técnica",
+    "groups": {
+      "frontend": {
+        "label": "Frontend"
+      },
+      "backend": {
+        "label": "Backend"
+      },
+      "data": {
+        "label": "Datos"
+      },
+      "tools": {
+        "label": "Cloud y herramientas"
+      }
     }
   }
 }
