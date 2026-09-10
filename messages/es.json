@@ -83,5 +83,61 @@
         "label": "Cloud y herramientas"
       }
     }
+  },
+  "Projects": {
+    "eyebrow": "Trabajo seleccionado",
+    "title": "Proyectos destacados",
+    "description": "Soluciones digitales para organizar el trabajo y dar visibilidad a negocios.",
+    "selection-label": "proyectos seleccionados",
+    "view-project": "Ver proyecto",
+    "view-code": "Ver código en GitHub",
+    "new-tab": "abre en una pestaña nueva",
+    "image-alt": "Vista de la interfaz de {name}",
+    "projects": {
+      "project1": {
+        "category": "Full stack",
+        "description": "Sistema para una cliente de venta directa que centraliza productos, clientes, ventas e inventario. La lógica comercial conecta cada venta con el stock disponible para mantener la trazabilidad de la operación.",
+        "highlight-1": "Control de stock por lotes y restitución al anular ventas, dentro de transacciones.",
+        "highlight-2": "API REST por capas, autenticación JWT y datos asociados a cada negocio.",
+        "repository-notice": "",
+        "summary": "Ventas e inventario para negocios de venta directa.",
+        "takeaway": "Stock sincronizado y trazabilidad por lotes."
+      },
+      "project2": {
+        "category": "Producto empresarial",
+        "description": "Aplicación de gestión de tareas desarrollada en un entorno empresarial. Su tablero Kanban permite visualizar el trabajo por estados y seguir el avance de las tareas desde una misma interfaz.",
+        "highlight-1": "Organización visual de tareas mediante un tablero Kanban.",
+        "highlight-2": "Interfaz con Next.js y Tailwind CSS; AWS como parte del stack.",
+        "repository-notice": "Proyecto empresarial · Código no público",
+        "summary": "Organización visual de tareas para equipos.",
+        "takeaway": "Gestión de tareas con tablero Kanban."
+      },
+      "project3": {
+        "category": "Diseño y desarrollo frontend",
+        "description": "Experiencia web para presentar la identidad del bar-restaurante Valhalla y sus horarios. Combina una interfaz visual con una capa de servicios que permite alternar entre datos de prueba y API sin cambiar los componentes.",
+        "highlight-1": "Carrusel con Motion que respeta la preferencia de movimiento reducido.",
+        "highlight-2": "Secciones con estados de carga, manejo de errores y reintentos.",
+        "repository-notice": "",
+        "summary": "Identidad y horarios de un bar-restaurante.",
+        "takeaway": "Animaciones con movimiento reducido.",
+        "contribution": "Me encargué de todo el frontend: desde el diseño de la experiencia y la interfaz hasta la implementación y el despliegue en Vercel."
+      },
+      "project4": {
+        "category": "Colaboración frontend",
+        "description": "Sitio para un estudio de arquitectura especializado en diseño y renders. Presenta sus proyectos mediante una galería interactiva y permite explorar su trabajo en español e inglés.",
+        "highlight-1": "Galería con filtros de interiores y exteriores y ampliación de imágenes.",
+        "highlight-2": "Cambio de idioma con React Context y contacto a través de WhatsApp.",
+        "repository-notice": "",
+        "summary": "Portafolio web para un estudio de arquitectura.",
+        "takeaway": "Galería interactiva en español e inglés.",
+        "contribution": "Contribuí a incorporar secciones, corregir errores y realizar el despliegue en Vercel, sobre un proyecto existente."
+      }
+    },
+    "featured-label": "Proyecto destacado",
+    "view-details": "Ver detalles",
+    "stack-label": "Tecnologías",
+    "close-details": "Cerrar detalles",
+    "highlights-label": "Puntos clave",
+    "contribution-label": "Mi participación"
   }
 }
