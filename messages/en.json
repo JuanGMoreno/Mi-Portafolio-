@@ -88,7 +88,7 @@
     "projects": {
       "eyebrow": "Selected work",
       "title": "Featured projects",
-      "description": "A selection of products where I combine technical decisions, user experience and measurable outcomes."
+      "description": "Digital solutions that organize work and give businesses an online presence."
     },
     "technologies": {
       "eyebrow": "Technical stack",
@@ -105,5 +105,61 @@
       "title": "Let's talk",
       "description": "I am available to collaborate on digital products and solve engineering challenges with real impact."
     }
+  },
+  "Projects": {
+    "eyebrow": "Selected work",
+    "title": "Featured projects",
+    "description": "Digital solutions that organize work and give businesses an online presence.",
+    "selection-label": "selected projects",
+    "view-project": "View project",
+    "view-code": "View code on GitHub",
+    "new-tab": "opens in a new tab",
+    "image-alt": "Preview of the {name} interface",
+    "projects": {
+      "project1": {
+        "category": "Full stack",
+        "description": "A system for a direct sales client that brings products, customers, sales, and inventory together. Business logic connects each sale to available stock to keep operations traceable.",
+        "highlight-1": "Batch-level stock tracking and restoration on cancellation within transactions.",
+        "highlight-2": "Layered REST API, JWT authentication, and business-scoped data.",
+        "repository-notice": "",
+        "summary": "Sales and inventory for direct sales businesses.",
+        "takeaway": "Synchronized stock and batch traceability."
+      },
+      "project2": {
+        "category": "Company product",
+        "description": "A task management application developed in a company environment. Its Kanban board makes work visible by status and lets users follow task progress from a single interface.",
+        "highlight-1": "Visual task organization through a Kanban board.",
+        "highlight-2": "Next.js and Tailwind CSS interface, with AWS as part of the stack.",
+        "repository-notice": "Company project · Non-public code",
+        "summary": "Visual task organization for teams.",
+        "takeaway": "Task management with a Kanban board."
+      },
+      "project3": {
+        "category": "Frontend design & development",
+        "description": "A web experience presenting the Valhalla bar and restaurant’s identity and opening hours. It combines a visual interface with a service layer that switches between mock data and API implementations without changing components.",
+        "highlight-1": "Motion carousel that respects reduced-motion preferences.",
+        "highlight-2": "Sections with loading states, error handling, and retries.",
+        "repository-notice": "",
+        "summary": "A bar and restaurant’s identity and opening hours.",
+        "takeaway": "Animations with reduced-motion support.",
+        "contribution": "I handled the entire frontend, from experience and interface design to implementation and deployment on Vercel."
+      },
+      "project4": {
+        "category": "Frontend contribution",
+        "description": "A website for an architecture studio specializing in design and renders. An interactive gallery showcases its projects and lets visitors explore its work in Spanish and English.",
+        "highlight-1": "Gallery with interior and exterior filters and enlarged image previews.",
+        "highlight-2": "Language switching with React Context and contact through WhatsApp.",
+        "repository-notice": "",
+        "summary": "A web portfolio for an architecture studio.",
+        "takeaway": "Interactive gallery in Spanish and English.",
+        "contribution": "I contributed new sections, bug fixes, and deployment on Vercel to an existing project."
+      }
+    },
+    "featured-label": "Featured project",
+    "view-details": "View details",
+    "stack-label": "Technologies",
+    "close-details": "Close details",
+    "highlights-label": "Key features",
+    "contribution-label": "My contribution"
   }
 }

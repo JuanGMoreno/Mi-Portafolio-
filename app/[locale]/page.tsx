@@ -3,6 +3,7 @@ import NavBar from "@/components/common/NavBar";
 import About from "@/components/sections/About";
 import Hero from "@/components/sections/Hero";
 import Skills from "@/components/sections/Skills";
+import Projects from "@/components/sections/projects/Projects";
 import { getTranslations } from "next-intl/server";
 
 export default async function HomePage() {
@@ -27,6 +28,7 @@ export default async function HomePage() {
         <Hero />
         <About />
         <Skills />
+        <Projects />
       </main>
     </>
   );
