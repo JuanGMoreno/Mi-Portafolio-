@@ -5,8 +5,139 @@
     "description": "Portafolio profesional de Juan Guillermo Moreno, desarrollador Full Stack especializado en Node.js, NestJS, React, Next.js y TypeScript.",
     "siteName": "Portafolio de Juan Guillermo Moreno"
   },
-  "Home": {
+  "Navbar": {
+    "start": "Inicio",
+    "projects": "Proyectos",
+    "technologies": "Tecnologías",
+    "experience": "Experiencia",
+    "about-me": "Sobre mí",
+    "contact": "Contacto",
+    "brand-label": "Ir al inicio",
+    "navigation-label": "Navegación principal",
+    "open-menu": "Abrir menú de navegación",
+    "close-menu": "Cerrar menú de navegación",
+    "menu-eyebrow": "Navegación",
+    "menu-title": "Explorar el portafolio",
+    "menu-description": "Navega por las secciones principales del portafolio."
+  },
+  "LocaleSwitcher": {
+    "label": "Cambiar idioma",
+    "spanish": "Español",
+    "english": "Inglés"
+  },
+  "Accessibility": {
+    "skip-to-content": "Saltar al contenido principal"
+  },
+  "Hero": {
+    "eyebrow": "Disponible para nuevos proyectos",
     "title": "Desarrollador Full Stack",
-    "description": "Construyo aplicaciones web completas y escalables."
+    "summary-skills": "React · Next.js · TypeScript · Node.js · PostgreSQL · AWS",
+    "description": "Diseño y construyo aplicaciones web de principio a fin: desde bases de datos y APIs robustas hasta interfaces claras y accesibles. Trabajo con especial atención a la arquitectura, la mantenibilidad y una experiencia de usuario natural.",
+    "view-projects": "Ver proyectos",
+    "contact-me": "Contáctame",
+    "image-alt": "Retrato ilustrado de Juan Guillermo Moreno"
+  },
+  "About": {
+    "eyebrow": "Sobre mí",
+    "title": "Curiosidad convertida en soluciones",
+    "story-1": "Todo empezó con una pregunta sencilla: ¿cómo funciona esto? La curiosidad por entender qué ocurre detrás de cada producto me llevó a la programación. Desde entonces, convierto el aprendizaje constante en herramientas para construir cosas nuevas.",
+    "story-2": "Ese impulso se ha traducido en productos reales: sistemas de gestión que organizan el trabajo en equipo, herramientas que automatizan procesos manuales y aplicaciones desarrolladas de principio a fin, desde el modelado de datos hasta su despliegue en la nube.",
+    "story-3": "Soy ingeniero en Ciencias Informáticas, graduado de la Universidad de las Ciencias Informáticas (UCI). Me interesa crear software claro, mantenible y útil, combinando buenas decisiones técnicas con una experiencia de usuario natural.",
+    "profile-label": "Perfil profesional en formato de código",
+    "code": {
+      "file": "profile.ts",
+      "variable": "perfil",
+      "education-key": "formacion",
+      "education-value": "Ingeniería en Ciencias Informáticas · UCI",
+      "location-key": "ubicacion",
+      "location-value": "Colombia",
+      "focus-key": "enfoque",
+      "focus-value": "Desarrollo de productos web Full Stack",
+      "areas-key": "areas",
+      "area-1": "Arquitectura",
+      "area-2": "Backend",
+      "area-3": "Frontend",
+      "area-4": "Cloud",
+      "principles-key": "principios",
+      "principle-1": "Claridad",
+      "principle-2": "Mantenibilidad",
+      "principle-3": "Accesibilidad"
+    }
+  },
+  "Skills": {
+    "eyebrow": "Habilidades",
+    "title": "Mi caja de herramientas",
+    "description": "De la interfaz al despliegue.",
+    "grid-label": "Áreas de experiencia técnica",
+    "groups": {
+      "frontend": {
+        "label": "Frontend"
+      },
+      "backend": {
+        "label": "Backend"
+      },
+      "data": {
+        "label": "Datos"
+      },
+      "tools": {
+        "label": "Cloud y herramientas"
+      }
+    }
+  },
+  "Projects": {
+    "eyebrow": "Trabajo seleccionado",
+    "title": "Proyectos destacados",
+    "description": "Soluciones digitales para organizar el trabajo y dar visibilidad a negocios.",
+    "selection-label": "proyectos seleccionados",
+    "view-project": "Ver proyecto",
+    "view-code": "Ver código en GitHub",
+    "new-tab": "abre en una pestaña nueva",
+    "image-alt": "Vista de la interfaz de {name}",
+    "projects": {
+      "project1": {
+        "category": "Full stack",
+        "description": "Sistema para una cliente de venta directa que centraliza productos, clientes, ventas e inventario. La lógica comercial conecta cada venta con el stock disponible para mantener la trazabilidad de la operación.",
+        "highlight-1": "Control de stock por lotes y restitución al anular ventas, dentro de transacciones.",
+        "highlight-2": "API REST por capas, autenticación JWT y datos asociados a cada negocio.",
+        "repository-notice": "",
+        "summary": "Ventas e inventario para negocios de venta directa.",
+        "takeaway": "Stock sincronizado y trazabilidad por lotes."
+      },
+      "project2": {
+        "category": "Producto empresarial",
+        "description": "Aplicación de gestión de tareas desarrollada en un entorno empresarial. Su tablero Kanban permite visualizar el trabajo por estados y seguir el avance de las tareas desde una misma interfaz.",
+        "highlight-1": "Organización visual de tareas mediante un tablero Kanban.",
+        "highlight-2": "Interfaz con Next.js y Tailwind CSS; AWS como parte del stack.",
+        "repository-notice": "Proyecto empresarial · Código no público",
+        "summary": "Organización visual de tareas para equipos.",
+        "takeaway": "Gestión de tareas con tablero Kanban."
+      },
+      "project3": {
+        "category": "Diseño y desarrollo frontend",
+        "description": "Experiencia web para presentar la identidad del bar-restaurante Valhalla y sus horarios. Combina una interfaz visual con una capa de servicios que permite alternar entre datos de prueba y API sin cambiar los componentes.",
+        "highlight-1": "Carrusel con Motion que respeta la preferencia de movimiento reducido.",
+        "highlight-2": "Secciones con estados de carga, manejo de errores y reintentos.",
+        "repository-notice": "",
+        "summary": "Identidad y horarios de un bar-restaurante.",
+        "takeaway": "Animaciones con movimiento reducido.",
+        "contribution": "Me encargué de todo el frontend: desde el diseño de la experiencia y la interfaz hasta la implementación y el despliegue en Vercel."
+      },
+      "project4": {
+        "category": "Colaboración frontend",
+        "description": "Sitio para un estudio de arquitectura especializado en diseño y renders. Presenta sus proyectos mediante una galería interactiva y permite explorar su trabajo en español e inglés.",
+        "highlight-1": "Galería con filtros de interiores y exteriores y ampliación de imágenes.",
+        "highlight-2": "Cambio de idioma con React Context y contacto a través de WhatsApp.",
+        "repository-notice": "",
+        "summary": "Portafolio web para un estudio de arquitectura.",
+        "takeaway": "Galería interactiva en español e inglés.",
+        "contribution": "Contribuí a incorporar secciones, corregir errores y realizar el despliegue en Vercel, sobre un proyecto existente."
+      }
+    },
+    "featured-label": "Proyecto destacado",
+    "view-details": "Ver detalles",
+    "stack-label": "Tecnologías",
+    "close-details": "Cerrar detalles",
+    "highlights-label": "Puntos clave",
+    "contribution-label": "Mi participación"
   }
 }

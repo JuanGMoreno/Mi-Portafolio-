@@ -2,20 +2,22 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations } from "next-intl/server";
-import { Geist_Mono, Raleway } from "next/font/google";
+import { JetBrains_Mono, Plus_Jakarta_Sans } from "next/font/google";
 
 import "../globals.css";
 
 import { routing } from "@/i18n/routing";
 
-const raleway = Raleway({
+const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  variable: "--font-raleway",
+  variable: "--font-plus-jakarta",
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
+const jetBrainsMono = JetBrains_Mono({
   subsets: ["latin"],
-  variable: "--font-geist-mono",
+  variable: "--font-jetbrains-mono",
+  display: "swap",
 });
 
 export async function generateMetadata({
@@ -86,7 +88,8 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${raleway.variable} ${geistMono.variable} antialiased`}
+      data-scroll-behavior="smooth"
+      className={`${plusJakarta.variable} ${jetBrainsMono.variable} dark antialiased`}
     >
       <body className="flex min-h-full flex-col">
         <NextIntlClientProvider>

@@ -5,8 +5,161 @@
     "description": "Professional portfolio of Juan Guillermo Moreno, a Full Stack developer specializing in Node.js, NestJS, React, Next.js and TypeScript.",
     "siteName": "Juan Guillermo Moreno's Portfolio"
   },
-  "Home": {
+  "Navbar": {
+    "start": "Home",
+    "projects": "Projects",
+    "technologies": "Technologies",
+    "experience": "Experience",
+    "about-me": "About me",
+    "contact": "Contact",
+    "brand-label": "Go to home",
+    "navigation-label": "Main navigation",
+    "open-menu": "Open navigation menu",
+    "close-menu": "Close navigation menu",
+    "menu-eyebrow": "Navigation",
+    "menu-title": "Explore the portfolio",
+    "menu-description": "Navigate through the portfolio's main sections."
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "spanish": "Spanish",
+    "english": "English"
+  },
+  "Accessibility": {
+    "skip-to-content": "Skip to main content"
+  },
+  "Hero": {
+    "eyebrow": "Available for new projects",
     "title": "Full Stack Developer",
-    "description": "I build complete and scalable web applications."
+    "summary-skills": "React · Next.js · TypeScript · Node.js · PostgreSQL · AWS",
+    "description": "I design and build end-to-end web applications, from robust databases and APIs to clear, accessible interfaces. I focus on sound architecture, maintainability, and a natural user experience.",
+    "view-projects": "View projects",
+    "contact-me": "Contact me",
+    "image-alt": "Illustrated portrait of Juan Guillermo Moreno"
+  },
+  "About": {
+    "eyebrow": "About me",
+    "title": "Curiosity turned into solutions",
+    "story-1": "It all started with a simple question: how does this work? Curiosity about what happens behind every product led me to programming. Since then, I have turned continuous learning into tools for building new things.",
+    "story-2": "That drive has become real products: management systems that organize teamwork, tools that automate manual processes, and applications developed end to end, from data modeling to cloud deployment.",
+    "story-3": "I hold a degree in Computer Science Engineering from the University of Informatics Sciences (UCI). I aim to create clear, maintainable, and useful software by combining sound technical decisions with a natural user experience.",
+    "profile-label": "Professional profile presented as code",
+    "code": {
+      "file": "profile.ts",
+      "variable": "profile",
+      "education-key": "education",
+      "education-value": "Computer Science Engineering · UCI",
+      "location-key": "location",
+      "location-value": "Colombia",
+      "focus-key": "focus",
+      "focus-value": "Full Stack web product development",
+      "areas-key": "areas",
+      "area-1": "Architecture",
+      "area-2": "Backend",
+      "area-3": "Frontend",
+      "area-4": "Cloud",
+      "principles-key": "principles",
+      "principle-1": "Clarity",
+      "principle-2": "Maintainability",
+      "principle-3": "Accessibility"
+    }
+  },
+  "Skills": {
+    "eyebrow": "Skills",
+    "title": "My toolkit",
+    "description": "From interface to deployment.",
+    "grid-label": "Areas of technical expertise",
+    "groups": {
+      "frontend": {
+        "label": "Frontend"
+      },
+      "backend": {
+        "label": "Backend"
+      },
+      "data": {
+        "label": "Data"
+      },
+      "tools": {
+        "label": "Cloud and tools"
+      }
+    }
+  },
+  "Sections": {
+    "projects": {
+      "eyebrow": "Selected work",
+      "title": "Featured projects",
+      "description": "Digital solutions that organize work and give businesses an online presence."
+    },
+    "technologies": {
+      "eyebrow": "Technical stack",
+      "title": "Skills and technologies",
+      "description": "Tools I use to build maintainable systems, from the interface to server-side architecture."
+    },
+    "experience": {
+      "eyebrow": "Career",
+      "title": "Professional experience",
+      "description": "A journey through the roles, challenges and lessons that have shaped my practice as a developer."
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Let's talk",
+      "description": "I am available to collaborate on digital products and solve engineering challenges with real impact."
+    }
+  },
+  "Projects": {
+    "eyebrow": "Selected work",
+    "title": "Featured projects",
+    "description": "Digital solutions that organize work and give businesses an online presence.",
+    "selection-label": "selected projects",
+    "view-project": "View project",
+    "view-code": "View code on GitHub",
+    "new-tab": "opens in a new tab",
+    "image-alt": "Preview of the {name} interface",
+    "projects": {
+      "project1": {
+        "category": "Full stack",
+        "description": "A system for a direct sales client that brings products, customers, sales, and inventory together. Business logic connects each sale to available stock to keep operations traceable.",
+        "highlight-1": "Batch-level stock tracking and restoration on cancellation within transactions.",
+        "highlight-2": "Layered REST API, JWT authentication, and business-scoped data.",
+        "repository-notice": "",
+        "summary": "Sales and inventory for direct sales businesses.",
+        "takeaway": "Synchronized stock and batch traceability."
+      },
+      "project2": {
+        "category": "Company product",
+        "description": "A task management application developed in a company environment. Its Kanban board makes work visible by status and lets users follow task progress from a single interface.",
+        "highlight-1": "Visual task organization through a Kanban board.",
+        "highlight-2": "Next.js and Tailwind CSS interface, with AWS as part of the stack.",
+        "repository-notice": "Company project · Non-public code",
+        "summary": "Visual task organization for teams.",
+        "takeaway": "Task management with a Kanban board."
+      },
+      "project3": {
+        "category": "Frontend design & development",
+        "description": "A web experience presenting the Valhalla bar and restaurant’s identity and opening hours. It combines a visual interface with a service layer that switches between mock data and API implementations without changing components.",
+        "highlight-1": "Motion carousel that respects reduced-motion preferences.",
+        "highlight-2": "Sections with loading states, error handling, and retries.",
+        "repository-notice": "",
+        "summary": "A bar and restaurant’s identity and opening hours.",
+        "takeaway": "Animations with reduced-motion support.",
+        "contribution": "I handled the entire frontend, from experience and interface design to implementation and deployment on Vercel."
+      },
+      "project4": {
+        "category": "Frontend contribution",
+        "description": "A website for an architecture studio specializing in design and renders. An interactive gallery showcases its projects and lets visitors explore its work in Spanish and English.",
+        "highlight-1": "Gallery with interior and exterior filters and enlarged image previews.",
+        "highlight-2": "Language switching with React Context and contact through WhatsApp.",
+        "repository-notice": "",
+        "summary": "A web portfolio for an architecture studio.",
+        "takeaway": "Interactive gallery in Spanish and English.",
+        "contribution": "I contributed new sections, bug fixes, and deployment on Vercel to an existing project."
+      }
+    },
+    "featured-label": "Featured project",
+    "view-details": "View details",
+    "stack-label": "Technologies",
+    "close-details": "Close details",
+    "highlights-label": "Key features",
+    "contribution-label": "My contribution"
   }
 }
