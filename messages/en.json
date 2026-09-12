@@ -161,5 +161,42 @@
     "close-details": "Close details",
     "highlights-label": "Key features",
     "contribution-label": "My contribution"
+  },
+  "Experiencie": {
+    "eyebrow": "Verified career path",
+    "title": "Professional experience",
+    "description": "A career built through real products, remote collaboration, and end-to-end responsibility.",
+    "timeline-label": "Professional timeline from 2023 to 2026",
+    "trace-label": "career.log / {number}",
+    "evidence-label": "Related projects",
+    "stack-label": "Core technologies",
+    "items": {
+      "freelance": {
+        "period": "Jan. 2023 — Jan. 2024",
+        "duration": "1 year",
+        "type": "Clients & collaborations",
+        "role": "Full Stack Developer",
+        "company": "Freelance",
+        "location": "Remote",
+        "summary": "I developed web solutions for clients and contributed to existing products, covering the process from requirements analysis to deployment.",
+        "achievement-1": "I built Crisal, a system that brings products, customers, sales, and inventory together for a direct sales business.",
+        "achievement-2": "I designed REST APIs with Node.js and Express, JWT authentication, and relational persistence with PostgreSQL.",
+        "achievement-3": "For BK-Studio, I added sections, fixed issues, and contributed to deploying an existing codebase.",
+        "evidence": "Crisal · BK-Studio"
+      },
+      "nimrod": {
+        "period": "Jun. 2025 — Jul. 2026",
+        "duration": "1 year, 1 month",
+        "type": "Company product",
+        "role": "Full Stack Developer",
+        "company": "Soluciones Nimrod",
+        "location": "Remote",
+        "summary": "I worked as part of a remote team developing and maintaining business management products.",
+        "achievement-1": "I developed interfaces with React, Next.js, TypeScript, and Tailwind CSS for a consistent management experience.",
+        "achievement-2": "I integrated REST APIs and managed global and asynchronous state with Redux, Zustand, and TanStack Query.",
+        "achievement-3": "I worked with AWS serverless services and contributed to architecture, code reviews, and testing for critical modules.",
+        "evidence": "Taskrod"
+      }
+    }
   }
 }
