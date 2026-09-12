@@ -139,5 +139,42 @@
     "close-details": "Cerrar detalles",
     "highlights-label": "Puntos clave",
     "contribution-label": "Mi participación"
+  },
+  "Experiencie": {
+    "eyebrow": "Trayectoria comprobable",
+    "title": "Experiencia profesional",
+    "description": "Una trayectoria construida con productos reales, trabajo remoto y responsabilidades de principio a fin.",
+    "timeline-label": "Cronología profesional de 2023 a 2026",
+    "trace-label": "career.log / {number}",
+    "evidence-label": "Proyectos relacionados",
+    "stack-label": "Tecnologías principales",
+    "items": {
+      "freelance": {
+        "period": "Ene. 2023 — Ene. 2024",
+        "duration": "1 año",
+        "type": "Clientes y colaboraciones",
+        "role": "Desarrollador Full Stack",
+        "company": "Freelance",
+        "location": "Remoto",
+        "summary": "Desarrollé soluciones web para clientes y colaboré sobre productos existentes, cubriendo desde el análisis de requisitos hasta el despliegue.",
+        "achievement-1": "Construí Crisal, un sistema que centraliza productos, clientes, ventas e inventario para un negocio de venta directa.",
+        "achievement-2": "Diseñé APIs REST con Node.js y Express, autenticación JWT y persistencia relacional con PostgreSQL.",
+        "achievement-3": "En BK-Studio incorporé secciones, corregí errores y participé en el despliegue de una base de código existente.",
+        "evidence": "Crisal · BK-Studio"
+      },
+      "nimrod": {
+        "period": "Jun. 2025 — Jul. 2026",
+        "duration": "1 año y 1 mes",
+        "type": "Producto empresarial",
+        "role": "Desarrollador Full Stack",
+        "company": "Soluciones Nimrod",
+        "location": "Remoto",
+        "summary": "Formé parte de un equipo remoto dedicado al desarrollo y mantenimiento de productos de gestión empresarial.",
+        "achievement-1": "Desarrollé interfaces con React, Next.js, TypeScript y Tailwind CSS para una experiencia de gestión consistente.",
+        "achievement-2": "Integré APIs REST y gestioné estado global y asíncrono con Redux, Zustand y TanStack Query.",
+        "achievement-3": "Trabajé con servicios serverless de AWS y colaboré en arquitectura, revisión de código y pruebas de módulos críticos.",
+        "evidence": "Taskrod"
+      }
+    }
   }
 }
