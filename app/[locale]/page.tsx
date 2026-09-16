@@ -5,6 +5,7 @@ import Hero from "@/components/sections/Hero";
 import Skills from "@/components/sections/Skills";
 import Projects from "@/components/sections/projects/Projects";
 import Experiencie from "@/components/sections/Experiencie";
+import Contact from "@/components/sections/Contact/Contact";
 import { getTranslations } from "next-intl/server";
 
 export default async function HomePage() {
@@ -31,6 +32,7 @@ export default async function HomePage() {
         <Skills />
         <Projects />
         <Experiencie />
+        <Contact />
       </main>
     </>
   );
