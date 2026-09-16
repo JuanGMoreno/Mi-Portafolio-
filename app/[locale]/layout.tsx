@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations } from "next-intl/server";
+import { Toaster } from "@/components/ui/toast"
 import { JetBrains_Mono, Plus_Jakarta_Sans } from "next/font/google";
 
 import "../globals.css";
@@ -94,6 +95,7 @@ export default async function LocaleLayout({
       <body className="flex min-h-full flex-col">
         <NextIntlClientProvider>
           {children}
+          <Toaster />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -198,5 +198,35 @@
         "evidence": "Taskrod"
       }
     }
+  },
+  "Contact": {
+    "eyebrow": "Let's talk",
+    "title": "Do you have a project in mind?",
+    "description": "If you would like to build something together, send me a message. I am available for new projects and collaborations.",
+    "contact-me": "Contact me",
+    "form-label": "contact.request",
+    "form-title": "Tell me about your idea",
+    "form-description": "Complete the fields and I will get back to you as soon as possible.",
+    "subject-label": "Subject",
+    "message-label": "Message",
+    "send-button": "Send",
+    "sending-button": "Sending...",
+    "subject-placeholder": "Write the subject of your message...",
+    "email-placeholder": "example@domain.com",
+    "message-placeholder": "Write your message here...",
+    "email-label": "Email address",
+    "email-value": "mailto:juguimo16@gmail.com",
+    "validation": {
+      "subject-required": "The subject is required.",
+      "subject-too-long": "The subject cannot exceed 100 characters.",
+      "email-invalid": "Enter a valid email address.",
+      "message-required": "The message is required.",
+      "message-too-short": "The message must be at least 10 characters.",
+      "message-too-long": "The message cannot exceed 2000 characters."
+    },
+    "toast":{
+      "send-failed": "The message could not be sent. Please try again later.",
+      "send-success": "Message sent successfully! Thank you for reaching out.",
+      "send-loading": "Sending message..."}
   }
 }
