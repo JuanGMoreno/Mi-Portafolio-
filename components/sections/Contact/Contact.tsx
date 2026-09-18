@@ -7,7 +7,7 @@ export default async function Contact() {
   return (
     <section
       aria-labelledby="contact-title"
-      className="flex min-h-[calc(100svh-4.5rem)] flex-col border-t border-border py-10 sm:py-12 lg:h-[calc(100svh-4.5rem)] lg:min-h-0 lg:overflow-y-auto lg:py-[clamp(1rem,4svh,3rem)]"
+      className="flex min-h-[calc(100svh-4.5rem)] flex-col border-t border-border pt-10 pb-14 sm:pt-12 sm:pb-16 lg:pt-[clamp(2rem,5svh,3.5rem)] lg:pb-[clamp(3rem,7svh,5rem)]"
       id="contact"
     >
       <div className="my-auto grid w-full shrink-0 items-center gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(22rem,36rem)] lg:gap-12 xl:gap-16">
