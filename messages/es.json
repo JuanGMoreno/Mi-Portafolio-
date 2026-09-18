@@ -207,5 +207,11 @@
       "send-success": "¡Mensaje enviado con éxito! Gracias por ponerte en contacto.",
       "send-loading": "Enviando mensaje..."
     }
+  },
+  "Footer": {
+    "role": "Desarrollador Full Stack",
+    "social-label": "Enlaces profesionales",
+    "copyright": "© {year} Juan Guillermo Moreno.",
+    "built-with": "Diseñado y desarrollado con Next.js y TypeScript."
   }
 }

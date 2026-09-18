@@ -87,7 +87,7 @@ export function ContactForm() {
       email: "",
       message: "",
     },
-    mode: "onBlur",
+    mode: "onSubmit",
     reValidateMode: "onChange",
   })
 

@@ -228,5 +228,11 @@
       "send-failed": "The message could not be sent. Please try again later.",
       "send-success": "Message sent successfully! Thank you for reaching out.",
       "send-loading": "Sending message..."}
+  },
+  "Footer": {
+    "role": "Full Stack Developer",
+    "social-label": "Professional links",
+    "copyright": "© {year} Juan Guillermo Moreno.",
+    "built-with": "Designed and developed with Next.js and TypeScript."
   }
 }
