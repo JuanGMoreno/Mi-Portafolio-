@@ -1,4 +1,8 @@
 import { getTranslations } from "next-intl/server";
+import * as motion from "motion/react-client";
+
+import { revealFromLeft, revealFromRight, viewportOnce } from "@/lib/motion";
+
 import { ContactForm } from "./ContactForm";
 
 export default async function Contact() {
@@ -10,8 +14,13 @@ export default async function Contact() {
       className="flex min-h-[calc(100svh-4.5rem)] flex-col border-t border-border pt-10 pb-14 sm:pt-12 sm:pb-16 lg:pt-[clamp(2rem,5svh,3.5rem)] lg:pb-[clamp(3rem,7svh,5rem)]"
       id="contact"
     >
-      <div className="my-auto grid w-full shrink-0 items-center gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(22rem,36rem)] lg:gap-12 xl:gap-16">
-        <div className="max-w-xl">
+      <motion.div
+        className="my-auto grid w-full shrink-0 items-center gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(22rem,36rem)] lg:gap-12 xl:gap-16"
+        initial="hidden"
+        whileInView="visible"
+        viewport={viewportOnce}
+      >
+        <motion.div className="max-w-xl" variants={revealFromLeft}>
           <p className="technical-label text-signal">05 // {t("eyebrow")}</p>
           <h2 id="contact-title" className="mt-3 text-3xl md:text-4xl">
             {t("title")}
@@ -19,9 +28,12 @@ export default async function Contact() {
           <p className="mt-4 text-base leading-7 text-text-secondary">
             {t("description")}
           </p>
-        </div>
+        </motion.div>
 
-        <div className="relative w-full max-w-xl justify-self-end overflow-hidden rounded-lg border border-border bg-surface-1/80 shadow-glow">
+        <motion.div
+          className="relative w-full max-w-xl justify-self-end overflow-hidden rounded-lg border border-border bg-surface-1/80 shadow-glow"
+          variants={revealFromRight}
+        >
           <span
             aria-hidden="true"
             className="absolute inset-y-0 left-0 w-px bg-gradient-to-b from-transparent via-signal/80 to-transparent"
@@ -40,8 +52,8 @@ export default async function Contact() {
           <div className="p-5 sm:p-6">
             <ContactForm />
           </div>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 }

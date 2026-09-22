@@ -38,7 +38,7 @@ export default function ProjectsCard({
 }: ProjectsCardProps) {
   return (
     <article className={cn(
-      "group flex min-w-0 flex-col overflow-hidden rounded-lg border bg-surface-1/70 transition-[border-color,box-shadow] duration-300 hover:border-signal/40 focus-within:border-signal/40",
+      "group flex h-full min-w-0 flex-col overflow-hidden rounded-lg border bg-surface-1/70 transition-[border-color,box-shadow] duration-300 hover:border-signal/40 hover:shadow-glow focus-within:border-signal/40",
       featured ? "border-signal/35 shadow-glow" : "border-border",
     )}>
       <div className="flex h-10 items-center justify-between gap-3 px-5 font-mono text-[11px]">
