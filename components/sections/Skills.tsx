@@ -1,5 +1,8 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
+import * as motion from "motion/react-client";
+
+import { listItem, revealUp, staggerContainer, viewportOnce } from "@/lib/motion";
 
 const skillGroups = [
   {
@@ -49,8 +52,13 @@ export default async function Skills() {
       className="flex h-[calc(100svh-4.5rem)] flex-col overflow-y-auto border-t border-border py-[clamp(1rem,4svh,3rem)]"
       id="technologies"
     >
-      <div className="my-auto w-full shrink-0">
-        <div>
+      <motion.div
+        className="my-auto w-full shrink-0"
+        initial="hidden"
+        whileInView="visible"
+        viewport={viewportOnce}
+      >
+        <motion.div variants={revealUp}>
           <div>
             <p className="technical-label text-signal">02 // {t("eyebrow")}</p>
             <h2 id="skills-title" className="mt-3 max-w-3xl text-3xl md:text-4xl">
@@ -60,16 +68,19 @@ export default async function Skills() {
           <p className="mt-3 text-base leading-6 text-text-secondary">
             {t("description")}
           </p>
-        </div>
+        </motion.div>
 
-        <div
+        <motion.div
           className="mt-[clamp(1rem,4svh,2rem)] divide-y divide-border rounded-lg border border-border bg-surface-1/80"
           aria-label={t("grid-label")}
+          variants={staggerContainer}
         >
           {skillGroups.map((group) => (
-            <article
+            <motion.article
               key={group.key}
               className="grid items-center gap-3 px-4 py-3 transition-colors duration-200 first:rounded-t-lg last:rounded-b-lg hover:bg-surface-2/70 sm:grid-cols-[10rem_minmax(0,1fr)] sm:gap-6 md:px-6 md:py-4 lg:grid-cols-[14rem_minmax(0,1fr)]"
+              variants={listItem}
+              whileHover={{ x: 4 }}
             >
               <h3 className="flex items-center gap-3 text-sm font-semibold md:text-base">
                 <span aria-hidden="true" className="h-4 w-px bg-signal/60" />
@@ -95,10 +106,10 @@ export default async function Skills() {
                   </li>
                 ))}
               </ul>
-            </article>
+            </motion.article>
           ))}
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 }

@@ -4,6 +4,9 @@ import {
   RiCodeBoxLine,
 } from "@remixicon/react";
 import { getTranslations } from "next-intl/server";
+import * as motion from "motion/react-client";
+
+import { listItem, revealUp, staggerContainer, viewportOnce } from "@/lib/motion";
 
 const experienceItems = [
   {
@@ -37,7 +40,13 @@ export default async function Experiencie() {
       className="flex min-h-[calc(100svh-4.5rem)] flex-col justify-center border-t border-border py-16 lg:py-20"
       id="experience"
     >
-      <div className="max-w-2xl">
+      <motion.div
+        className="max-w-2xl"
+        initial="hidden"
+        whileInView="visible"
+        viewport={viewportOnce}
+        variants={revealUp}
+      >
         <p className="technical-label text-signal">04 // {t("eyebrow")}</p>
         <h2 id="experience-title" className="mt-3 text-3xl md:text-4xl">
           {t("title")}
@@ -45,16 +54,21 @@ export default async function Experiencie() {
         <p className="mt-3 max-w-xl text-base leading-7 text-text-secondary">
           {t("description")}
         </p>
-      </div>
+      </motion.div>
 
-      <ol
+      <motion.ol
         aria-label={t("timeline-label")}
         className="relative mt-8 space-y-5 before:absolute before:bottom-6 before:left-[1.375rem] before:top-6 before:w-px before:bg-gradient-to-b before:from-signal-blue/20 before:via-signal before:to-signal/20 before:content-[''] lg:mt-10 lg:space-y-6"
+        initial="hidden"
+        whileInView="visible"
+        viewport={viewportOnce}
+        variants={staggerContainer}
       >
         {experienceItems.map((item, index) => (
-          <li
+          <motion.li
             key={item.key}
             className="relative pl-14 after:absolute after:left-[2.75rem] after:top-[1.375rem] after:h-px after:w-3 after:bg-signal/40 after:content-[''] sm:pl-16 sm:after:w-5 md:pl-20 md:after:w-9"
+            variants={listItem}
           >
             <div
               aria-hidden="true"
@@ -164,9 +178,9 @@ export default async function Experiencie() {
                 </div>
               </div>
             </article>
-          </li>
+          </motion.li>
         ))}
-      </ol>
+      </motion.ol>
     </section>
   );
 }

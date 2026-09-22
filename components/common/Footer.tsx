@@ -4,6 +4,9 @@ import {
   RiMailLine,
 } from "@remixicon/react";
 import { getTranslations } from "next-intl/server";
+import * as motion from "motion/react-client";
+
+import { revealUp, viewportOnce } from "@/lib/motion";
 
 const professionalLinks = [
   {
@@ -32,7 +35,13 @@ export default async function Footer() {
 
   return (
     <footer className="border-t border-border bg-surface-1/25">
-      <div className="site-container py-6 sm:py-7">
+      <motion.div
+        className="site-container py-6 sm:py-7"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ ...viewportOnce, amount: 0.4 }}
+        variants={revealUp}
+      >
         <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
           <div>
             <p className="text-sm font-semibold tracking-[0.02em] text-text-primary">
@@ -66,7 +75,7 @@ export default async function Footer() {
           <p>{t("copyright", { year: currentYear })}</p>
           <p>{t("built-with")}</p>
         </div>
-      </div>
+      </motion.div>
     </footer>
   );
 }

@@ -1,6 +1,9 @@
 import type { ReactNode } from "react";
 import { RiCodeSSlashLine } from "@remixicon/react";
 import { getTranslations } from "next-intl/server";
+import * as motion from "motion/react-client";
+
+import { revealFromLeft, revealFromRight, viewportOnce } from "@/lib/motion";
 
 function CodeLine({
   number,
@@ -31,8 +34,14 @@ export default async function About() {
       aria-labelledby="about-title"
       className="border-t border-border py-16 md:flex md:min-h-[calc(100svh-4.5rem)] md:items-center md:py-16 lg:py-20"
     >
-      <div className="grid w-full items-center gap-12 lg:grid-cols-12 lg:gap-16" id="about-me">
-        <div className="lg:col-span-7">
+      <motion.div
+        className="grid w-full items-center gap-12 lg:grid-cols-12 lg:gap-16"
+        id="about-me"
+        initial="hidden"
+        whileInView="visible"
+        viewport={viewportOnce}
+      >
+        <motion.div className="lg:col-span-7" variants={revealFromLeft}>
           <p className="technical-label text-signal">01 // {t("eyebrow")}</p>
           <h2 id="about-title" className="mt-4 max-w-2xl text-3xl md:text-4xl">
             {t("title")}
@@ -43,11 +52,13 @@ export default async function About() {
             <p>{t("story-2")}</p>
             <p>{t("story-3")}</p>
           </div>
-        </div>
+        </motion.div>
 
-        <aside
+        <motion.aside
           aria-label={t("profile-label")}
           className="overflow-hidden rounded-lg border border-border bg-surface-1/82 shadow-glow lg:col-span-5"
+          variants={revealFromRight}
+          whileHover={{ y: -3 }}
         >
           <div className="flex items-center justify-between border-b border-border bg-surface-2/72 px-4 py-3">
             <div className="flex items-center gap-2 text-sm text-text-secondary">
@@ -123,8 +134,8 @@ export default async function About() {
               </CodeLine>
             </code>
           </pre>
-        </aside>
-      </div>
+        </motion.aside>
+      </motion.div>
     </section>
   );
 }
