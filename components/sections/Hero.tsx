@@ -9,7 +9,7 @@ import Image from "next/image";
 import { getLocale, getTranslations } from "next-intl/server";
 import * as motion from "motion/react-client";
 
-import heroImage from "@/public/images/hero-image.webp";
+import heroImage from "@/public/images/hero-image.jpeg";
 import { heroContainer, heroItem } from "@/lib/motion";
 
 import { buttonVariants } from "../ui/button";
